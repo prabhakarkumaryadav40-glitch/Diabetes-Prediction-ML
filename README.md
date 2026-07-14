@@ -76,7 +76,6 @@ Launch the application using Streamlit and enter patient information to receive 
 ## 👨‍💻 Authors
 
 - Prabhakar Kumar Yadav
-- Sandeep Kumar Sah
 
 ## 📄 License
 
