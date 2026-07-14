@@ -1,0 +1,35 @@
+/* Main Background */
+.stApp {
+    background: #F4F7FC;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg,#0F172A,#1E293B);
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Cards */
+.metric-card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 5px 20px rgba(0,0,0,.08);
+}
+
+/* Buttons */
+.stButton>button{
+    width:100%;
+    border-radius:10px;
+    height:50px;
+    font-size:18px;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    color:gray;
+}
