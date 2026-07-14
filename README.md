@@ -1,82 +1,128 @@
-# 🩺 Diabetes Prediction using Machine Learning
+# 🩺 Diabetes Prediction Dashboard
 
-A web application built with Streamlit that predicts whether a person is likely to have diabetes based on medical parameters using Machine Learning.
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-red?logo=streamlit)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Random%20Forest-orange?logo=scikitlearn)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📌 Features
+A Machine Learning web application that predicts whether a patient is likely to have diabetes using a **Random Forest Classifier** trained on the **PIMA Indians Diabetes Dataset**.
 
-- Diabetes prediction using Machine Learning
-- User-friendly Streamlit interface
-- Real-time prediction
-- Trained Random Forest model
-- Fast and lightweight
+---
 
-## 🛠️ Tech Stack
+## 🚀 Live Demo
+
+👉 **https://diabetes-prediction-ml-f5fqlhelzbycwvj4xuj4z3.streamlit.app/**
+
+---
+
+# ✨ Features
+
+- 📝 Manual Diabetes Prediction
+- 📂 Batch CSV Prediction
+- 📈 Feature Importance Analysis
+- 📊 Prediction History
+- 🥧 Interactive Charts
+- 📥 CSV Download
+- ☁️ Streamlit Cloud Deployment
+
+---
+
+# 🛠️ Tech Stack
 
 - Python
 - Streamlit
 - Scikit-learn
 - Pandas
-- NumPy
-- Pickle
+- Plotly
+- Joblib
 
-## 📂 Project Structure
+---
 
-```
-Diabetic analysis/
+# 🤖 Machine Learning Model
+
+| Property | Value |
+|----------|-------|
+| Model | Random Forest |
+| Dataset | PIMA Indians Diabetes Dataset |
+| Features | 8 |
+| Accuracy | 78% |
+
+---
+
+# 📷 Screenshots
+
+## 🏠 Home
+
+![Home](assets/screenshots/home.png)
+
+---
+
+## 📝 Manual Prediction
+
+![Predict](assets/screenshots/predict.png)
+
+---
+
+## 📂 Batch Prediction
+
+![Batch](assets/screenshots/batch.png)
+
+---
+
+## 📊 Prediction History
+
+![History](assets/screenshots/history.png)
+
+---
+
+## ℹ️ About
+
+![About](assets/screenshots/about.png)
+
+---
+
+# 📁 Project Structure
+
+```text
+Diabetes-Prediction-ML
 │
-├── run.py
-├── diabetes.csv
-├── best_diabetes_model.pkl
-├── Diabetic.ipynb
+├── app.py
+├── utils.py
+├── config.py
+├── requirements.txt
 ├── README.md
-└── .gitignore
+│
+├── assets
+│   ├── style.css
+│   └── screenshots
+│
+├── model
+│   └── best_diabetes_model.pkl
+│
+└── data
 ```
 
-## 🚀 Installation
-
-Clone the repository
+# ⚙️ Installation
 
 ```bash
-git clone https://github.com/prabhakarkumaryadav40-glitch/Diabetes-Prediction-ML.git
-```
+git clone https://github.com/yourusername/Diabetes-Prediction-ML.git
 
-Move into the project
-
-```bash
 cd Diabetes-Prediction-ML
-```
 
-Install dependencies
-
-```bash
 pip install -r requirements.txt
+
+streamlit run app.py
 ```
 
-Run the application
+---
 
-```bash
-streamlit run run.py
-```
+# 👨‍💻 Developer
 
-## 📊 Machine Learning Model
+**Prabhakar Kumar Yadav**
 
-The project compares multiple machine learning algorithms:
+- GitHub: https://github.com/prabhakarkumaryadav40-glitch
+- LinkedIn: www.linkedin.com/in/prabhakar-kumar-yadav-675379359
 
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Random Forest
-- XGBoost
+---
 
-Random Forest achieved the best performance and is used for prediction.
-
-## 📷 Application
-
-Launch the application using Streamlit and enter patient information to receive an instant diabetes prediction.
-
-## 👨‍💻 Authors
-
-- Prabhakar Kumar Yadav
-
-## 📄 License
-
-This project is developed for educational purposes.
+⭐ If you found this project useful, consider giving it a star!
